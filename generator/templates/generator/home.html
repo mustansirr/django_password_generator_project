@@ -1,7 +1,19 @@
+<!DOCTYPE html>
+<html>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+<header>
+  <link rel="stylesheet" href=("css/screen.css")>
+<div class="container text-center"
+  <nav aria-label="breadcrumb">
+  <h1 text-align:center>Password Generator</h1>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">Home</li>
+    </ol>
+  </nav>
+</div>
+</header>
+<br>
 <div class="container text-center">
-<h1>Password Generator</h1>
 <form action="password">
   <select name="length">
     <option value="6">6 </option>
@@ -20,7 +32,14 @@
   <input type="checkbox" name="numbers"> Numbers
   <br>
   <input type="checkbox" name="special"> Special Characters
-  <br>
+  <br><br>
   <input type="submit" value="Generate Password" class="btn btn-primary">
 </form>
+<br>
+<form action="about">
+<div class="container text-center">
+  <input type="submit" name="about" value="About" class="btn btn-info "></input>
 </div>
+</form>
+</div>
+</html>
